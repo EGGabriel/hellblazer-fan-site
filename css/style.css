@@ -1,9 +1,13 @@
+body {font-family: 'Roboto', sans-serif;
+    background-image: url(images/bg.png);}
+
 header {
-    background-color: blue;
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     padding-top: 20px;
     height: 60px;
     position: fixed;
+    font-size: 20px;
 }
 
 .logo {
@@ -15,5 +19,25 @@ header {
 
 .logo:hover {
     width: 95px;
+    transition: 0.5s;
+}
+
+header ul {
+    margin-top: 15px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+header ul li a:hover {
+    font-size: 30px;
     transition: 0.5s;
 }
