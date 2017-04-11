@@ -58,8 +58,12 @@ header ul li a:hover {
 }
 
 .box img {
-    width: 200px; 
+    width: 300px; 
     margin-bottom: 20px;
+}
+
+.box p img {
+    width: 50px;
 }
 
 .box h1 {
@@ -105,4 +109,10 @@ header ul li a:hover {
 .separador {
     width: 100%;
     margin-left: 300px;  
+}
+
+hr {
+    border-bottom: 1px dotted black;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
