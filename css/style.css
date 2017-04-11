@@ -7,20 +7,21 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     padding-top: 20px;
+    border-bottom: 3px solid #FF4500;
     height: 60px;
-    position: fixed;
+    position: relative;
     font-size: 20px;
 }
 
 .logo {
-    width: 85px;
+    width: 82px;
     float: left;
     position: absolute;
     transition: 0.5s;
 }
 
 .logo:hover {
-    width: 95px;
+    width: 100px;
     transition: 0.5s;
 }
 
@@ -43,4 +44,58 @@ header ul li a:hover {
     font-size: 30px;
     transition: 0.5s;
     color: #FF4500;
+}
+
+.box {
+    background-image: url(images/paper.jpg);
+    margin-top: 36px;
+    border-top: 3px solid #FF4500;
+    border-bottom: 3px solid #FF4500;
+    border-left: 2px solid #3a3738;
+    border-right: 2px solid #3a3738;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.box img {
+    width: 200px; 
+    margin-bottom: 20px;
+}
+
+.box h1 {
+    font-size: 60px;
+    text-align: center;
+    color: red;
+    margin-bottom: 30px;
+}
+
+.box h2 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.box h3{
+    font-size: 20px;
+    font-style: italic;
+    float: right;
+    color: white;
+}
+
+.box p {
+    font-size: 17px;
+    margin-top: 5px;
+    text-indent: 30px;
+}
+
+#separadornews {
+    width: 500px;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 220px;
+}
+
+.separador {
+    width: 100%;
+    margin-left: 220px;
 }
