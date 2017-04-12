@@ -129,6 +129,6 @@ hr {
 .box .gallery-box img:hover {
     width: 260px;
     border-radius: 30px;
-    border: 8px solid #FF4500;
+    border: 6px solid #FF4500;
     transition: 0.5s;
 }
