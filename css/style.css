@@ -63,6 +63,11 @@ header ul li a:hover {
     border-radius: 20px;
 }
 
+.box tr td img {
+        width: 68px;
+        height: 68px;
+}
+
 .box p img {
     width: 50px;
     border-radius: 0px;
@@ -128,6 +133,20 @@ hr {
 
 .box .gallery-box img:hover {
     width: 260px;
+    border-radius: 30px;
+    border: 6px solid #FF4500;
+    transition: 0.5s;
+}
+
+.box .gallery-box-item img {
+    width: 220px;
+    border-radius: 30px;
+    border: 2px solid #3a3738;
+    transition: 0.5s;
+}
+
+.box .gallery-box-item img:hover {
+    width: 240px;
     border-radius: 30px;
     border: 6px solid #FF4500;
     transition: 0.5s;
