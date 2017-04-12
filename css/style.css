@@ -103,6 +103,10 @@ header ul li a:hover {
     text-decoration: none;
     color: gray;   
 }
+.box p span {
+   font-weight: bolder; 
+   color: gray;
+}
 .box p a:hover {
     text-decoration: underline;
 }
@@ -150,4 +154,9 @@ hr {
     border-radius: 30px;
     border: 6px solid #FF4500;
     transition: 0.5s;
+}
+
+.box iframe {
+    width: 380px;
+    height: 213px;
 }
