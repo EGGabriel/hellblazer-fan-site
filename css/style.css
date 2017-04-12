@@ -60,11 +60,12 @@ header ul li a:hover {
 .box img {
     width: 300px; 
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .box p img {
     width: 50px;
-    position: relative;
+    border-radius: 0px;
 }
 
 .box h1 {
