@@ -54,6 +54,7 @@ header ul li a:hover {
     border-left: 2px solid #3a3738;
     border-right: 2px solid #3a3738;
     margin-bottom: 20px;
+    padding-bottom: 20px;
     position: relative;
 }
 
@@ -143,14 +144,14 @@ hr {
 }
 
 .box .gallery-box-item img {
-    width: 220px;
+    width: 245px;
     border-radius: 30px;
     border: 2px solid #3a3738;
     transition: 0.5s;
 }
 
 .box .gallery-box-item img:hover {
-    width: 240px;
+    width: 260px;
     border-radius: 30px;
     border: 6px solid #FF4500;
     transition: 0.5s;
@@ -188,6 +189,7 @@ table tr {
 
 table tr td {
     border: 1px solid black;
+    padding: 10px;
 }
 
 .box iframe {
