@@ -151,3 +151,36 @@ hr {
     border: 6px solid #FF4500;
     transition: 0.5s;
 }
+
+td {
+    align-content: center;
+    text-align: center;
+}
+
+.txgreen {
+    color: #008000;
+}
+
+.txred {
+    color: #ff0000;
+}
+
+.box tr td p {
+    text-indent: 0px;
+    font-size: 17px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+table tr {
+    border: 1px solid black;
+}
+
+table tr td {
+    border: 1px solid black;
+}
