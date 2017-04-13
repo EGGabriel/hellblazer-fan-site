@@ -196,3 +196,7 @@ table tr td {
     width: 380px;
     height: 213px;
 }
+
+.box table img {
+    border-radius: 0px;
+}
