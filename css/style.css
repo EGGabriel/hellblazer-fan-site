@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url(images/bg.png);
+    background-attachment: fixed;
 }
 
 header {
