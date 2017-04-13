@@ -156,7 +156,7 @@ hr {
     transition: 0.5s;
 }
 
-<<<<<<< HEAD
+
 td {
     align-content: center;
     text-align: center;
@@ -188,9 +188,9 @@ table tr {
 
 table tr td {
     border: 1px solid black;
-=======
+}
+
 .box iframe {
     width: 380px;
     height: 213px;
->>>>>>> 9a39bda1dec9776a57ea7dd90a31d4b622d1e8e4
 }
