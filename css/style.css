@@ -38,12 +38,11 @@ header ul li a {
     text-decoration: none;
     color: white;
     margin: 10px;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 header ul li a:hover {
-    font-size: 25px;
-    transition: 0.5s;
+    transition: 1s;
     color: #FF4500;
 }
 
@@ -134,28 +133,28 @@ hr {
 .box .gallery-box img {
     width: 240px;
     border-radius: 30px;
-    border: 2px solid #3a3738;
+    border: 3px solid #3a3738;
     transition: 0.5s;
 }
 
 .box .gallery-box img:hover {
-    width: 260px;
+    width: 240px;
     border-radius: 30px;
-    border: 6px solid #FF4500;
+    border: 3px solid #FF4500;
     transition: 0.5s;
 }
 
 .box .gallery-box-item img {
     width: 245px;
     border-radius: 30px;
-    border: 2px solid #3a3738;
+    border: 3px solid #3a3738;
     transition: 0.5s;
 }
 
 .box .gallery-box-item img:hover {
-    width: 260px;
+    width: 245px;
     border-radius: 30px;
-    border: 6px solid #FF4500;
+    border: 3px solid #FF4500;
     transition: 0.5s;
 }
 
